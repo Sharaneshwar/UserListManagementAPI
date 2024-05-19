@@ -1,0 +1,21 @@
+name,email,city,grade
+John Doe,john.doe@example.com,Bengaluru,A
+Jane Doe,jane.doe@example.com,,B
+Alice Smith,alice.smith@example.com,New York,A
+Bob Johnson,bob.johnson@example.com,,Not Assigned
+Charlie Brown,charlie.brown@example.com,San Francisco,Intermediate
+Lucy van Pelt,lucy.vanpelt@example.com,New York,Advanced
+Linus van Pelt,linus.vanpelt@example.com,San Francisco,Beginner
+Sally Brown,sally.brown@example.com,Los Angeles,Intermediate
+Peppermint Patty,peppermint.patty@example.com,Seattle,B
+Marcie Johnson,marcie.johnson@example.com,Chicago,A
+Schroeder,schroeder@example.com,San Diego,B
+Pig-Pen,pig.pen@example.com,Houston,C
+Franklin,franklin@example.com,Miami,B
+Rerun van Pelt,rerun.vanpelt@example.com,Portland,A
+Frieda,freda@example.com,Boston,B
+Patty,patty@example.com,Denver,A
+Violet,vi@example.com,San Jose,C
+Shermy,shermy@example.com,Las Vegas,B
+Roy,roy@example.com,New Orleans,A
+Molly,molly@example.com,Detroit,B

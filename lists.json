@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Math Course Enrollments",
+        "name": "Math Course",
+        "properties": [
+            {
+                "title": "city",
+                "fallback": "Unknown"
+            },
+            {
+                "title": "grade",
+                "fallback": "Not Assigned"
+            }
+        ]
+    },
+    {
+        "title": "Science Course Enrollments",
+        "name": "Science Course",
+        "properties": [
+            {
+                "title": "city",
+                "fallback": "Unknown"
+            },
+            {
+                "title": "grade",
+                "fallback": "Not Assigned"
+            }
+        ]
+    },
+    {
+        "title": "AIML Course Enrollments",
+        "name": "AIML Course",
+        "properties": [
+            {
+                "title": "city",
+                "fallback": "Unknown"
+            },
+            {
+                "title": "grade",
+                "fallback": "Not Assigned"
+            }
+        ]
+    }
+]
