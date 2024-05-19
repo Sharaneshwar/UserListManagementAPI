@@ -11,7 +11,18 @@ app.use(express.json());
 
 // Routes
 app.get('/', (req, res) => {
-    res.send('This is a User List API');
+    res.send(`This is a User List API developed by Sharaneshwar Punjal
+    <br><br>
+    <b>Routes:</b>
+    <br>
+    GET /
+    <br>
+    POST /api/users/list - Create a new list
+    <br>
+    POST /api/users/list/:id/users - Create users from a CSV file in a list
+    <br>
+    POST /api/users/list/:id/send-email - Send an email to all users in a list
+    `);
 });
 app.use('/api/users', userRoutes);
 
