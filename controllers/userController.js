@@ -9,6 +9,13 @@ const createList = async (req, res) => {
     const { title, name, properties } = req.body;
 
     try {
+        // Check if list with the same name already exists
+        const existingList = await List({ name });
+        if (existingList) {
+            return res.status(400).json({ error: 'List with the same name already exists' });
+        }
+
+        // Create a new list
         const newList = new List({ title, name, properties });
         await newList.save();
         res.status(201).json(newList);
