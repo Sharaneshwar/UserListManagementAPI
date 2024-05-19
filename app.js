@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const userRoutes = require('./routes/userRoutes');
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 // Middleware
 app.use(express.json());
@@ -23,6 +23,6 @@ mongoose.connect(process.env.MONGO_URL).then(() => {
 });
 
 // Start Server
-app.listen(port, () => {
+app.listen(port, "0.0.0.0", () => {
     console.log(`Server running on http://localhost:${port}`);
 });
